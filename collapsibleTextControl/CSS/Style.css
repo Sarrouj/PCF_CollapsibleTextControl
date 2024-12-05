@@ -1,0 +1,31 @@
+.collapsibleTextArea{
+    width: 100%;
+    background-color: #F5F5F5;
+    display: flex;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.collapsibleTextArea > .btn{
+    border: none;
+    height: 25px;
+    margin-top: 5px;
+}
+.collapsibleTextArea >.textArea{
+    width: 100%;
+    border: none;
+    border-radius: 0px;
+}
+
+.collapse{
+    height: 150px;
+}
+
+.uncollapse{
+    height: 35px;
+}
+
+.errorMsg{
+    color : rgb(215, 0, 0);
+    font-size: 12px;
+    margin-left: 10px;
+}
